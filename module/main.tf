@@ -5,9 +5,9 @@ module "rgs" {
   
 }
 
-module "rgs3" {
+module "rgs1" {
     source = "../resource"
-    rg_name = "rg-bholenath3"
+    rg_name = "rg-bholenath1"
     location_name = "east us"
   
 }
